@@ -10,13 +10,16 @@ import (
 )
 
 func main() {
-	cabal := gmbh.NewComsModule()
-	cabal.SetClient()
-	cabal.SetServer()
-	cabal.Route("test", handleTest)
-	cabal.Route("two", handleTest2)
-	cabal.Route("tkn", handleTkn)
-	cabal.Start("demo")
+
+	gimlet, err := gmbh.NewService("../demo.yaml")
+	if err != nil {
+		panic(err)
+	}
+
+	gimlet.Route("test", handleTest)
+	gimlet.Route("two", handleTest2)
+	gimlet.Route("tkn", handleTkn)
+	gimlet.Start()
 }
 
 func handleTest(req gmbh.Request, resp *gmbh.Responder) {

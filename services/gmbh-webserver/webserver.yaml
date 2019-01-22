@@ -3,5 +3,5 @@ aliases: ["ws"]
 language: go
 makefile: true
 pathtobin: ./bin/_cabal-ws
-isClient: true
-isServer: false
+isClient: True
+isServer: False

@@ -3,5 +3,5 @@ aliases: ["d"]
 language: go
 makefile: true
 pathtobin: ./bin/_cabal-a
-isClient: true
-isServer: true
+isClient: True
+isServer: True

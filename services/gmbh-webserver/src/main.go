@@ -9,14 +9,17 @@ import (
 	"github.com/tomasen/realip"
 )
 
-var cabal *gmbh.Cabal
+var gimlet *gmbh.Gimlet
 
 func main() {
 
 	go func() {
-		cabal = gmbh.NewComsModule()
-		cabal.SetClient()
-		cabal.Start("webserver")
+		var err error
+		gimlet, err = gmbh.NewService("../webserver.yaml")
+		if err != nil {
+			panic(err)
+		}
+		gimlet.Start()
 	}()
 
 	r := mux.NewRouter()
@@ -30,7 +33,7 @@ func handleIndex(w http.ResponseWriter, r *http.Request) {
 	w.Write([]byte("Cabal Coms Demo\n"))
 	w.Write([]byte("Requesting a response from the CORE server...\n"))
 
-	result := cabal.MakeRequest("demo", "test", "abc123")
+	result := gimlet.MakeRequest("demo", "test", "abc123")
 
 	if result.HadError {
 		w.Write([]byte("Auth says: " + result.ErrorString + "\n"))
@@ -43,7 +46,7 @@ func handletest(w http.ResponseWriter, r *http.Request) {
 	w.Write([]byte("Cabal Coms Demo\n"))
 	w.Write([]byte("Requesting a response from the CORE server...\n"))
 
-	result := cabal.MakeRequest("demo", "two", "abc123")
+	result := gimlet.MakeRequest("demo", "two", "abc123")
 
 	if result.HadError {
 		w.Write([]byte("Auth says: " + result.ErrorString + "\n"))
@@ -55,7 +58,7 @@ func handletkn(w http.ResponseWriter, r *http.Request) {
 	w.Write([]byte("Cabal Coms Demo\n"))
 	w.Write([]byte("Requesting a response from the CORE server...\n"))
 
-	result := cabal.MakeRequest("demo", "tkn", realip.FromRequest(r))
+	result := gimlet.MakeRequest("demo", "tkn", realip.FromRequest(r))
 
 	if result.HadError {
 		w.Write([]byte("Auth says: " + result.ErrorString + "\n"))
