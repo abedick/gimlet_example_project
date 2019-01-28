@@ -6,20 +6,20 @@ import (
 	"time"
 
 	jwt "github.com/dgrijalva/jwt-go"
-	"github.com/gimlet-gmbh/gmbh"
+	"github.com/gmbh-micro/gmbh"
 )
 
 func main() {
 
-	gimlet, err := gmbh.NewService("../demo.yaml")
+	client, err := gmbh.NewService("../demo.yaml")
 	if err != nil {
 		panic(err)
 	}
 
-	gimlet.Route("test", handleTest)
-	gimlet.Route("two", handleTest2)
-	gimlet.Route("tkn", handleTkn)
-	gimlet.Start()
+	client.Route("test", handleTest)
+	client.Route("two", handleTest2)
+	client.Route("tkn", handleTkn)
+	client.Start()
 }
 
 func handleTest(req gmbh.Request, resp *gmbh.Responder) {

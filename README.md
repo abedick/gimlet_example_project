@@ -1,1 +1,1 @@
-# gimlet_example_project
+# gmbh_example_project

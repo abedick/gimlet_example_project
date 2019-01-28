@@ -4,22 +4,22 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/gimlet-gmbh/gmbh"
+	"github.com/gmbh-micro/gmbh"
 	"github.com/gorilla/mux"
 	"github.com/tomasen/realip"
 )
 
-var gimlet *gmbh.Gimlet
+var client *gmbh.Client
 
 func main() {
 
 	go func() {
 		var err error
-		gimlet, err = gmbh.NewService("../webserver.yaml")
+		client, err = gmbh.NewService("../webserver.yaml")
 		if err != nil {
 			panic(err)
 		}
-		gimlet.Start()
+		client.Start()
 	}()
 
 	r := mux.NewRouter()
@@ -33,7 +33,7 @@ func handleIndex(w http.ResponseWriter, r *http.Request) {
 	w.Write([]byte("Cabal Coms Demo\n"))
 	w.Write([]byte("Requesting a response from the CORE server...\n"))
 
-	result := gimlet.MakeRequest("demo", "test", "abc123")
+	result := client.MakeRequest("demo", "test", "abc123")
 
 	if result.HadError {
 		w.Write([]byte("Auth says: " + result.ErrorString + "\n"))
@@ -46,7 +46,7 @@ func handletest(w http.ResponseWriter, r *http.Request) {
 	w.Write([]byte("Cabal Coms Demo\n"))
 	w.Write([]byte("Requesting a response from the CORE server...\n"))
 
-	result := gimlet.MakeRequest("demo", "two", "abc123")
+	result := client.MakeRequest("demo", "two", "abc123")
 
 	if result.HadError {
 		w.Write([]byte("Auth says: " + result.ErrorString + "\n"))
@@ -58,7 +58,7 @@ func handletkn(w http.ResponseWriter, r *http.Request) {
 	w.Write([]byte("Cabal Coms Demo\n"))
 	w.Write([]byte("Requesting a response from the CORE server...\n"))
 
-	result := gimlet.MakeRequest("demo", "tkn", realip.FromRequest(r))
+	result := client.MakeRequest("demo", "tkn", realip.FromRequest(r))
 
 	if result.HadError {
 		w.Write([]byte("Auth says: " + result.ErrorString + "\n"))
