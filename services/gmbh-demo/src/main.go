@@ -11,7 +11,7 @@ import (
 
 func main() {
 
-	client, err := gmbh.NewService("../demo.yaml")
+	client, err := gmbh.NewService("../gmbh.yaml")
 	if err != nil {
 		panic(err)
 	}

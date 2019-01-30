@@ -15,7 +15,7 @@ func main() {
 
 	go func() {
 		var err error
-		client, err = gmbh.NewService("../webserver.yaml")
+		client, err = gmbh.NewService("../gmbh.yaml")
 		if err != nil {
 			panic(err)
 		}

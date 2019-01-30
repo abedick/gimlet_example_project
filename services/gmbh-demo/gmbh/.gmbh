@@ -1,0 +1,45 @@
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] gmbh started
+[gmbh] ==0==> from: test, method: test
+[gmbh] ==1==> from: test, method: test
+[gmbh] ==2==> from: test, method: test
+interrupt
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] gmbh started
+interrupt
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] gmbh started
+interrupt
+panic: rpc error: code = Unavailable desc = all SubConns are in TransientFailure, latest connection error: connection error: desc = "transport: Error while dialing dial tcp [::1]:59999: connect: connection refused"
+
+goroutine 1 [running]:
+github.com/gmbh-micro/gmbh._ephemeralRegisterService(0xc0000acb1c, 0x4, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/abrahamdick/go/src/github.com/gmbh-micro/gmbh/rpc.go:68 +0x3bc
+github.com/gmbh-micro/gmbh.(*Client).Start(0xc0000ae580)
+	/Users/abrahamdick/go/src/github.com/gmbh-micro/gmbh/gmbh.go:73 +0x5d
+main.main()
+	/Users/abrahamdick/RailwayCabal/exProject/services/gmbh-demo/src/main.go:22 +0x14b
+panic: rpc error: code = Unavailable desc = all SubConns are in TransientFailure, latest connection error: connection error: desc = "transport: Error while dialing dial tcp [::1]:59999: connect: connection refused"
+
+goroutine 1 [running]:
+github.com/gmbh-micro/gmbh._ephemeralRegisterService(0xc0000a6b1c, 0x4, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/abrahamdick/go/src/github.com/gmbh-micro/gmbh/rpc.go:68 +0x3bc
+github.com/gmbh-micro/gmbh.(*Client).Start(0xc0000a8540)
+	/Users/abrahamdick/go/src/github.com/gmbh-micro/gmbh/gmbh.go:73 +0x5d
+main.main()
+	/Users/abrahamdick/RailwayCabal/exProject/services/gmbh-demo/src/main.go:22 +0x14b
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] gmbh started
+interrupt
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] gmbh started
+interrupt
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] gmbh started
+interrupt
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] gmbh started
+[gmbh] ==0==> from: test, method: test
+[gmbh] ==1==> from: test, method: test
+[gmbh] ==2==> from: test, method: test
+interrupt

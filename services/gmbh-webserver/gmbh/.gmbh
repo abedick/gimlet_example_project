@@ -1,0 +1,55 @@
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] gmbh started
+[gmbh] <==0== target: demo, method: test
+[gmbh]  ==0==> result: Hello from _cabal-generic, we received: abc123, errors?: 
+[gmbh] <==1== target: demo, method: test
+[gmbh]  ==1==> result: Hello from _cabal-generic, we received: abc123, errors?: 
+[gmbh] <==2== target: demo, method: test
+[gmbh]  ==2==> result: Hello from _cabal-generic, we received: abc123, errors?: 
+interrupt
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] gmbh started
+interrupt
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] gmbh started
+interrupt
+panic: rpc error: code = Unavailable desc = all SubConns are in TransientFailure, latest connection error: connection error: desc = "transport: Error while dialing dial tcp [::1]:59999: connect: connection refused"
+
+goroutine 6 [running]:
+github.com/gmbh-micro/gmbh._ephemeralRegisterService(0xc000154030, 0x9, 0xc0000c0000, 0x0, 0x0, 0x0, 0x0)
+	/Users/abrahamdick/go/src/github.com/gmbh-micro/gmbh/rpc.go:68 +0x3bc
+github.com/gmbh-micro/gmbh.(*Client).Start(0xc000132000)
+	/Users/abrahamdick/go/src/github.com/gmbh-micro/gmbh/gmbh.go:73 +0x5d
+main.main.func1()
+	/Users/abrahamdick/RailwayCabal/exProject/services/gmbh-webserver/src/main.go:22 +0x67
+created by main.main
+	/Users/abrahamdick/RailwayCabal/exProject/services/gmbh-webserver/src/main.go:16 +0x39
+panic: rpc error: code = Unavailable desc = all SubConns are in TransientFailure, latest connection error: connection error: desc = "transport: Error while dialing dial tcp [::1]:59999: connect: connection refused"
+
+goroutine 6 [running]:
+github.com/gmbh-micro/gmbh._ephemeralRegisterService(0xc000154030, 0x9, 0xc0000c0000, 0x0, 0x0, 0x0, 0x0)
+	/Users/abrahamdick/go/src/github.com/gmbh-micro/gmbh/rpc.go:68 +0x3bc
+github.com/gmbh-micro/gmbh.(*Client).Start(0xc000132000)
+	/Users/abrahamdick/go/src/github.com/gmbh-micro/gmbh/gmbh.go:73 +0x5d
+main.main.func1()
+	/Users/abrahamdick/RailwayCabal/exProject/services/gmbh-webserver/src/main.go:22 +0x67
+created by main.main
+	/Users/abrahamdick/RailwayCabal/exProject/services/gmbh-webserver/src/main.go:16 +0x39
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] gmbh started
+interrupt
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] gmbh started
+interrupt
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] gmbh started
+interrupt
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] gmbh started
+[gmbh] <==0== target: demo, method: test
+[gmbh]  ==0==> result: Hello from _cabal-generic, we received: abc123, errors?: 
+[gmbh] <==1== target: demo, method: test
+[gmbh]  ==1==> result: Hello from _cabal-generic, we received: abc123, errors?: 
+[gmbh] <==2== target: demo, method: test
+[gmbh]  ==2==> result: Hello from _cabal-generic, we received: abc123, errors?: 
+interrupt
