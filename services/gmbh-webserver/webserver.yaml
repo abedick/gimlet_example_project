@@ -1,7 +1,0 @@
-name: webserver
-aliases: ["ws"]
-language: go
-makefile: true
-pathtobin: ./bin/_cabal-ws
-isClient: True
-isServer: False
