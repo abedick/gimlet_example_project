@@ -43,3 +43,238 @@ acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
 [gmbh] ==1==> from: test, method: test
 [gmbh] ==2==> from: test, method: test
 interrupt
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] gmbh started
+interrupt
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] gmbh started
+interrupt
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] gmbh started
+interrupt
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] gmbh started
+interrupt
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] gmbh started
+interrupt
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] gmbh started
+[gmbh] ==0==> from: test, method: test
+[gmbh] ==1==> from: test, method: test
+[gmbh] ==2==> from: test, method: test
+interrupt
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] gmbh started
+[gmbh] ==0==> from: test, method: test
+interrupt
+panic: rpc error: code = Unavailable desc = all SubConns are in TransientFailure, latest connection error: connection error: desc = "transport: Error while dialing dial tcp [::1]:59999: connect: connection refused"
+
+goroutine 1 [running]:
+github.com/gmbh-micro/gmbh._ephemeralRegisterService(0xc0000a8b1c, 0x4, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/abrahamdick/go/src/github.com/gmbh-micro/gmbh/rpc.go:68 +0x3bc
+github.com/gmbh-micro/gmbh.(*Client).Start(0xc0000aa540)
+	/Users/abrahamdick/go/src/github.com/gmbh-micro/gmbh/gmbh.go:73 +0x5d
+main.main()
+	/Users/abrahamdick/RailwayCabal/exProject/services/gmbh-demo/src/main.go:22 +0x14b
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] gmbh started
+interrupt
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] gmbh started
+interrupt
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] gmbh started
+interrupt
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] gmbh started
+interrupt
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] gmbh started
+[gmbh] ==0==> from: test, method: test
+interrupt
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] gmbh started
+interrupt
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] gmbh started
+interrupt
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] -----------------------------------
+[gmbh] gmbh started
+interrupt
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] -----------------------------------
+[gmbh] gmbh started
+interrupt
+[gmbh] exit(0)
+[gmbh] -----------------------------------
+[gmbh] gmbh started
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+panic: listen tcp 127.0.0.1:49999: bind: address already in use
+
+goroutine 11 [running]:
+github.com/gmbh-micro/gmbh.rpcConnect(0xc00020a050, 0xf)
+	/Users/abrahamdick/go/src/github.com/gmbh-micro/gmbh/rpc.go:134 +0x143
+created by github.com/gmbh-micro/gmbh.(*Client).Start
+	/Users/abrahamdick/go/src/github.com/gmbh-micro/gmbh/gmbh.go:91 +0x22f
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+panic: listen tcp 127.0.0.1:49999: bind: address already in use
+
+goroutine 39 [running]:
+github.com/gmbh-micro/gmbh.rpcConnect(0xc0001fc070, 0xf)
+	/Users/abrahamdick/go/src/github.com/gmbh-micro/gmbh/rpc.go:134 +0x143
+created by github.com/gmbh-micro/gmbh.(*Client).Start
+	/Users/abrahamdick/go/src/github.com/gmbh-micro/gmbh/gmbh.go:91 +0x22f
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+panic: listen tcp 127.0.0.1:49999: bind: address already in use
+
+goroutine 9 [running]:
+github.com/gmbh-micro/gmbh.rpcConnect(0xc000152110, 0xf)
+	/Users/abrahamdick/go/src/github.com/gmbh-micro/gmbh/rpc.go:134 +0x143
+created by github.com/gmbh-micro/gmbh.(*Client).Start
+	/Users/abrahamdick/go/src/github.com/gmbh-micro/gmbh/gmbh.go:91 +0x22f
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+panic: listen tcp 127.0.0.1:49999: bind: address already in use
+
+goroutine 25 [running]:
+github.com/gmbh-micro/gmbh.rpcConnect(0xc000188170, 0xf)
+	/Users/abrahamdick/go/src/github.com/gmbh-micro/gmbh/rpc.go:134 +0x143
+created by github.com/gmbh-micro/gmbh.(*Client).Start
+	/Users/abrahamdick/go/src/github.com/gmbh-micro/gmbh/gmbh.go:91 +0x22f
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+panic: listen tcp 127.0.0.1:49999: bind: address already in use
+
+goroutine 23 [running]:
+github.com/gmbh-micro/gmbh.rpcConnect(0xc000026270, 0xf)
+	/Users/abrahamdick/go/src/github.com/gmbh-micro/gmbh/rpc.go:134 +0x143
+created by github.com/gmbh-micro/gmbh.(*Client).Start
+	/Users/abrahamdick/go/src/github.com/gmbh-micro/gmbh/gmbh.go:91 +0x22f
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+panic: listen tcp 127.0.0.1:49999: bind: address already in use
+
+goroutine 7 [running]:
+github.com/gmbh-micro/gmbh.rpcConnect(0xc000170190, 0xf)
+	/Users/abrahamdick/go/src/github.com/gmbh-micro/gmbh/rpc.go:134 +0x143
+created by github.com/gmbh-micro/gmbh.(*Client).Start
+	/Users/abrahamdick/go/src/github.com/gmbh-micro/gmbh/gmbh.go:91 +0x22f
+[gmbh] ==0==> from: test, method: test
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+panic: listen tcp 127.0.0.1:49999: bind: address already in use
+
+goroutine 56 [running]:
+github.com/gmbh-micro/gmbh.rpcConnect(0xc0000a8c90, 0xf)
+	/Users/abrahamdick/go/src/github.com/gmbh-micro/gmbh/rpc.go:134 +0x143
+created by github.com/gmbh-micro/gmbh.(*Client).Start
+	/Users/abrahamdick/go/src/github.com/gmbh-micro/gmbh/gmbh.go:91 +0x22f
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+panic: listen tcp 127.0.0.1:49999: bind: address already in use
+
+goroutine 9 [running]:
+github.com/gmbh-micro/gmbh.rpcConnect(0xc0001f8110, 0xf)
+	/Users/abrahamdick/go/src/github.com/gmbh-micro/gmbh/rpc.go:134 +0x143
+created by github.com/gmbh-micro/gmbh.(*Client).Start
+	/Users/abrahamdick/go/src/github.com/gmbh-micro/gmbh/gmbh.go:91 +0x22f
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+panic: listen tcp 127.0.0.1:49999: bind: address already in use
+
+goroutine 9 [running]:
+github.com/gmbh-micro/gmbh.rpcConnect(0xc000228050, 0xf)
+	/Users/abrahamdick/go/src/github.com/gmbh-micro/gmbh/rpc.go:134 +0x143
+created by github.com/gmbh-micro/gmbh.(*Client).Start
+	/Users/abrahamdick/go/src/github.com/gmbh-micro/gmbh/gmbh.go:91 +0x22f
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+panic: listen tcp 127.0.0.1:49999: bind: address already in use
+
+goroutine 52 [running]:
+github.com/gmbh-micro/gmbh.rpcConnect(0xc0001f4110, 0xf)
+	/Users/abrahamdick/go/src/github.com/gmbh-micro/gmbh/rpc.go:134 +0x143
+created by github.com/gmbh-micro/gmbh.(*Client).Start
+	/Users/abrahamdick/go/src/github.com/gmbh-micro/gmbh/gmbh.go:91 +0x22f
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+panic: listen tcp 127.0.0.1:49999: bind: address already in use
+
+goroutine 67 [running]:
+github.com/gmbh-micro/gmbh.rpcConnect(0xc0001d2160, 0xf)
+	/Users/abrahamdick/go/src/github.com/gmbh-micro/gmbh/rpc.go:134 +0x143
+created by github.com/gmbh-micro/gmbh.(*Client).Start
+	/Users/abrahamdick/go/src/github.com/gmbh-micro/gmbh/gmbh.go:91 +0x22f
+terminated
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] ==0==> from: test, method: test
+[gmbh] ==1==> from: test, method: test
+[gmbh] ==2==> from: test, method: test
+[gmbh] ==3==> from: test, method: tkn
+interrupt
+[gmbh] exit(0)

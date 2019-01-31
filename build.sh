@@ -7,7 +7,5 @@ go get github.com/tomasen/realip
 cd services/
 
 cd gmbh-webserver && make
-
-cd ../
-
-cd gmbh-demo && make
+cd ../gmbh-demo && make
+cd ../gmbh-fail && make

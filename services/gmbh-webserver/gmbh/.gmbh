@@ -53,3 +53,160 @@ acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
 [gmbh] <==2== target: demo, method: test
 [gmbh]  ==2==> result: Hello from _cabal-generic, we received: abc123, errors?: 
 interrupt
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] gmbh started
+interrupt
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] gmbh started
+interrupt
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] gmbh started
+interrupt
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] gmbh started
+interrupt
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] gmbh started
+interrupt
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] gmbh started
+[gmbh] <==0== target: demo, method: test
+[gmbh]  ==0==> result: Hello from _cabal-generic, we received: abc123, errors?: 
+[gmbh] <==1== target: demo, method: test
+[gmbh]  ==1==> result: Hello from _cabal-generic, we received: abc123, errors?: 
+[gmbh] <==2== target: demo, method: test
+[gmbh]  ==2==> result: Hello from _cabal-generic, we received: abc123, errors?: 
+interrupt
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] gmbh started
+[gmbh] <==0== target: demo, method: test
+[gmbh]  ==0==> result: Hello from _cabal-generic, we received: abc123, errors?: 
+interrupt
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] gmbh started
+interrupt
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] gmbh started
+interrupt
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] gmbh started
+interrupt
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] gmbh started
+interrupt
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] gmbh started
+[gmbh] <==0== target: demo, method: test
+[gmbh]  ==0==> result: Hello from _cabal-generic, we received: abc123, errors?: 
+interrupt
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] gmbh started
+interrupt
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] gmbh started
+interrupt
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] -----------------------------------
+[gmbh] gmbh started
+interrupt
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] -----------------------------------
+[gmbh] gmbh started
+interrupt
+[gmbh] exit(0)
+[gmbh] -----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+panic: rpc error: code = Unavailable desc = transport is closing
+
+goroutine 20 [running]:
+github.com/gmbh-micro/gmbh._ephemeralRegisterService(0xc000174030, 0x9, 0xc0000e0000, 0x0, 0x0, 0x0, 0x0)
+	/Users/abrahamdick/go/src/github.com/gmbh-micro/gmbh/rpc.go:68 +0x3bc
+github.com/gmbh-micro/gmbh.(*Client).Start(0xc00014a000)
+	/Users/abrahamdick/go/src/github.com/gmbh-micro/gmbh/gmbh.go:76 +0x8f
+main.main.func1()
+	/Users/abrahamdick/RailwayCabal/exProject/services/gmbh-webserver/src/main.go:22 +0x67
+created by main.main
+	/Users/abrahamdick/RailwayCabal/exProject/services/gmbh-webserver/src/main.go:16 +0x39
+-----------------------------------
+[gmbh] gmbh started
+panic: rpc error: code = Unavailable desc = transport is closing
+
+goroutine 36 [running]:
+github.com/gmbh-micro/gmbh._ephemeralRegisterService(0xc0000261a0, 0x9, 0xc0000e0000, 0x0, 0x0, 0x0, 0x0)
+	/Users/abrahamdick/go/src/github.com/gmbh-micro/gmbh/rpc.go:68 +0x3bc
+github.com/gmbh-micro/gmbh.(*Client).Start(0xc000030080)
+	/Users/abrahamdick/go/src/github.com/gmbh-micro/gmbh/gmbh.go:76 +0x8f
+main.main.func1()
+	/Users/abrahamdick/RailwayCabal/exProject/services/gmbh-webserver/src/main.go:22 +0x67
+created by main.main
+	/Users/abrahamdick/RailwayCabal/exProject/services/gmbh-webserver/src/main.go:16 +0x39
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] <==0== target: demo, method: test
+[gmbh]  ==0==> result: Hello from _cabal-generic, we received: abc123, errors?: 
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] <==0== target: demo, method: test
+[gmbh]  ==0==> result: Hello from _cabal-generic, we received: abc123, errors?: 
+[gmbh] <==1== target: demo, method: test
+[gmbh]  ==1==> result: Hello from _cabal-generic, we received: abc123, errors?: 
+[gmbh] <==2== target: demo, method: test
+[gmbh]  ==2==> result: Hello from _cabal-generic, we received: abc123, errors?: 
+[gmbh] <==3== target: demo, method: tkn
+[gmbh]  ==3==> result: eyJhbGciOiJIUzI1NiIsImtpZCI6IiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NDg5OTE2OTgsImlhdCI6MTU0ODk3MDA5OCwiaWQiOiI6OjEiLCJpc3MiOiJfY2FiYWwtYXV0aGVudGljYXRpb24tbW9kdWxlIiwidXNlcmdyb3VwIjoiZ3Vlc3QifQ.kcKwsTvvGxXDoqOxPoZFqIYiuXCSfsUmFsgxJOyaLpk, errors?: 
+interrupt
+[gmbh] exit(0)
