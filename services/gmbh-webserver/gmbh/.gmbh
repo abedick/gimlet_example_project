@@ -671,3 +671,267 @@ interrupt
 acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
 interrupt
 [gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] <==0== target: demo, method: tkn
+[gmbh]  ==0==> result: eyJhbGciOiJIUzI1NiIsImtpZCI6IiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NDkwNTczMjEsImlhdCI6MTU0OTAzNTcyMSwiaWQiOiI6OjEiLCJpc3MiOiJfY2FiYWwtYXV0aGVudGljYXRpb24tbW9kdWxlIiwidXNlcmdyb3VwIjoiZ3Vlc3QifQ.K9-WxFFMEIWfKBqBfwpwEAJSXLFTfzKI5mycZ1TzEJY, errors?: 
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+terminated
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+2019/02/01 12:01:43 listen tcp :3000: bind: address already in use
+2019/02/01 12:01:45 listen tcp :3000: bind: address already in use
+2019/02/01 12:01:47 listen tcp :3000: bind: address already in use
+terminated
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+terminated
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] <==0== target: demo, method: tkn
+[gmbh]  ==0==> result: eyJhbGciOiJIUzI1NiIsImtpZCI6IiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NDkwNjY1NDIsImlhdCI6MTU0OTA0NDk0MiwiaWQiOiI6OjEiLCJpc3MiOiJfY2FiYWwtYXV0aGVudGljYXRpb24tbW9kdWxlIiwidXNlcmdyb3VwIjoiZ3Vlc3QifQ.pJDSEjEsna1hjPFgP4p4KOZAJSNx5aS5VDR-7jl7Q38, errors?: 
+[gmbh] <==1== target: demo, method: tkn
+[gmbh]  ==1==> result: , errors?: rpc error: code = Unavailable desc = all SubConns are in TransientFailure, latest connection error: connection error: desc = "transport: Error while dialing dial tcp [::1]:49999: connect: connection refused"
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] <==0== target: demo, method: tkn
+[gmbh]  ==0==> result: eyJhbGciOiJIUzI1NiIsImtpZCI6IiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NDkwNzA4NzEsImlhdCI6MTU0OTA0OTI3MSwiaWQiOiI6OjEiLCJpc3MiOiJfY2FiYWwtYXV0aGVudGljYXRpb24tbW9kdWxlIiwidXNlcmdyb3VwIjoiZ3Vlc3QifQ.2_Jk2EDIXYHuczbW9pfu8ptcEeeIH23BaVyMr5QK4u8, errors?: 
+[gmbh] <==1== target: demo, method: tkn
+[gmbh]  ==1==> result: eyJhbGciOiJIUzI1NiIsImtpZCI6IiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NDkwNzA4NzEsImlhdCI6MTU0OTA0OTI3MSwiaWQiOiI6OjEiLCJpc3MiOiJfY2FiYWwtYXV0aGVudGljYXRpb24tbW9kdWxlIiwidXNlcmdyb3VwIjoiZ3Vlc3QifQ.2_Jk2EDIXYHuczbW9pfu8ptcEeeIH23BaVyMr5QK4u8, errors?: 
+[gmbh] <==2== target: demo, method: tkn
+[gmbh]  ==2==> result: eyJhbGciOiJIUzI1NiIsImtpZCI6IiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NDkwNzA4NzIsImlhdCI6MTU0OTA0OTI3MiwiaWQiOiI6OjEiLCJpc3MiOiJfY2FiYWwtYXV0aGVudGljYXRpb24tbW9kdWxlIiwidXNlcmdyb3VwIjoiZ3Vlc3QifQ.COCpms2UT1QaE0z95cFSFBtrpb7MSm2EPlG-3kHbeJk, errors?: 
+[gmbh] <==3== target: demo, method: tkn
+[gmbh]  ==3==> result: eyJhbGciOiJIUzI1NiIsImtpZCI6IiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NDkwNzA4NzIsImlhdCI6MTU0OTA0OTI3MiwiaWQiOiI6OjEiLCJpc3MiOiJfY2FiYWwtYXV0aGVudGljYXRpb24tbW9kdWxlIiwidXNlcmdyb3VwIjoiZ3Vlc3QifQ.COCpms2UT1QaE0z95cFSFBtrpb7MSm2EPlG-3kHbeJk, errors?: 
+[gmbh] <==4== target: demo, method: tkn
+[gmbh]  ==4==> result: eyJhbGciOiJIUzI1NiIsImtpZCI6IiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NDkwNzA4NzIsImlhdCI6MTU0OTA0OTI3MiwiaWQiOiI6OjEiLCJpc3MiOiJfY2FiYWwtYXV0aGVudGljYXRpb24tbW9kdWxlIiwidXNlcmdyb3VwIjoiZ3Vlc3QifQ.COCpms2UT1QaE0z95cFSFBtrpb7MSm2EPlG-3kHbeJk, errors?: 
+[gmbh] <==5== target: demo, method: tkn
+[gmbh]  ==5==> result: eyJhbGciOiJIUzI1NiIsImtpZCI6IiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NDkwNzA4NzMsImlhdCI6MTU0OTA0OTI3MywiaWQiOiI6OjEiLCJpc3MiOiJfY2FiYWwtYXV0aGVudGljYXRpb24tbW9kdWxlIiwidXNlcmdyb3VwIjoiZ3Vlc3QifQ.W88aZ72y6fyg3_BiJZ6oOjGEYzS4GzRuu5DwAF2OWvc, errors?: 
+[gmbh] <==6== target: demo, method: tkn
+[gmbh]  ==6==> result: eyJhbGciOiJIUzI1NiIsImtpZCI6IiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NDkwNzA4NzMsImlhdCI6MTU0OTA0OTI3MywiaWQiOiI6OjEiLCJpc3MiOiJfY2FiYWwtYXV0aGVudGljYXRpb24tbW9kdWxlIiwidXNlcmdyb3VwIjoiZ3Vlc3QifQ.W88aZ72y6fyg3_BiJZ6oOjGEYzS4GzRuu5DwAF2OWvc, errors?: 
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] <==0== target: demo, method: tkn
+[gmbh]  ==0==> result: eyJhbGciOiJIUzI1NiIsImtpZCI6IiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NDkwNzA5MTUsImlhdCI6MTU0OTA0OTMxNSwiaWQiOiI6OjEiLCJpc3MiOiJfY2FiYWwtYXV0aGVudGljYXRpb24tbW9kdWxlIiwidXNlcmdyb3VwIjoiZ3Vlc3QifQ.ch5KInQiDAfIFIwcRA9C3R9D1YD3fB5r9db1Mk-Kerg, errors?: 
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] <==0== target: demo, method: tkn
+[gmbh]  ==0==> result: eyJhbGciOiJIUzI1NiIsImtpZCI6IiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NDkwNzA5OTUsImlhdCI6MTU0OTA0OTM5NSwiaWQiOiI6OjEiLCJpc3MiOiJfY2FiYWwtYXV0aGVudGljYXRpb24tbW9kdWxlIiwidXNlcmdyb3VwIjoiZ3Vlc3QifQ.vt7xaTpMPAW0FznqVXx00BaNJ8zo9LxFu4WoQopFTpQ, errors?: 
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] <==0== target: demo, method: tkn
+[gmbh]  ==0==> result: eyJhbGciOiJIUzI1NiIsImtpZCI6IiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NDkwNzExMTgsImlhdCI6MTU0OTA0OTUxOCwiaWQiOiI6OjEiLCJpc3MiOiJfY2FiYWwtYXV0aGVudGljYXRpb24tbW9kdWxlIiwidXNlcmdyb3VwIjoiZ3Vlc3QifQ.8VWnGZRvjSojiSIGVXLU2fQuQUVn9Wx_u9wErAcKAL8, errors?: 
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] <==0== target: demo, method: tkn
+[gmbh]  ==0==> result: eyJhbGciOiJIUzI1NiIsImtpZCI6IiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NDkwNzExNDMsImlhdCI6MTU0OTA0OTU0MywiaWQiOiI6OjEiLCJpc3MiOiJfY2FiYWwtYXV0aGVudGljYXRpb24tbW9kdWxlIiwidXNlcmdyb3VwIjoiZ3Vlc3QifQ.N1Yns75ln8KXGa508vrX96O68Nhy8Va4Q89-vItFBsg, errors?: 
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] <==0== target: demo, method: tkn
+[gmbh]  ==0==> result: eyJhbGciOiJIUzI1NiIsImtpZCI6IiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NDkwNzEzMDYsImlhdCI6MTU0OTA0OTcwNiwiaWQiOiI6OjEiLCJpc3MiOiJfY2FiYWwtYXV0aGVudGljYXRpb24tbW9kdWxlIiwidXNlcmdyb3VwIjoiZ3Vlc3QifQ._3h5-De7MXeM0mf9tfOJPelmNFlV0sxTQ_gtxIPgr8s, errors?: 
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] <==0== target: demo, method: tkn
+[gmbh]  ==0==> result: eyJhbGciOiJIUzI1NiIsImtpZCI6IiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NDkwNzEzNjIsImlhdCI6MTU0OTA0OTc2MiwiaWQiOiI6OjEiLCJpc3MiOiJfY2FiYWwtYXV0aGVudGljYXRpb24tbW9kdWxlIiwidXNlcmdyb3VwIjoiZ3Vlc3QifQ.HBRi5pqu3ULam_YAdhqhybeZiGHBuUZvkIRpr5g5e-Q, errors?: 
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] <==0== target: demo, method: tkn
+[gmbh]  ==0==> result: eyJhbGciOiJIUzI1NiIsImtpZCI6IiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NDkwNzE0NDIsImlhdCI6MTU0OTA0OTg0MiwiaWQiOiI6OjEiLCJpc3MiOiJfY2FiYWwtYXV0aGVudGljYXRpb24tbW9kdWxlIiwidXNlcmdyb3VwIjoiZ3Vlc3QifQ.exTJptsnploPKUORDVQ9ygOTmPDqbO2wfyppofECxKg, errors?: 
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] <==0== target: demo, method: tkn
+[gmbh]  ==0==> result: eyJhbGciOiJIUzI1NiIsImtpZCI6IiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NDkwNzE1MTgsImlhdCI6MTU0OTA0OTkxOCwiaWQiOiI6OjEiLCJpc3MiOiJfY2FiYWwtYXV0aGVudGljYXRpb24tbW9kdWxlIiwidXNlcmdyb3VwIjoiZ3Vlc3QifQ.RuWGG-JkoHf06PEr65UNyTK28tNrfUrFvjIrGnU0h9M, errors?: 
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] <==0== target: demo, method: tkn
+[gmbh]  ==0==> result: eyJhbGciOiJIUzI1NiIsImtpZCI6IiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NDkwNzE2MzAsImlhdCI6MTU0OTA1MDAzMCwiaWQiOiI6OjEiLCJpc3MiOiJfY2FiYWwtYXV0aGVudGljYXRpb24tbW9kdWxlIiwidXNlcmdyb3VwIjoiZ3Vlc3QifQ.-aKBmR_b7zb6xPFpWbZO0gbHd3_zHyFnFhuTYdsz-vw, errors?: 
