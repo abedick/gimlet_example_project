@@ -1200,3 +1200,105 @@ interrupt
 [gmbh] gmbh started
 acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
 [gmbh] ==0==> from: test, method: tkn
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] ==0==> from: test, method: test
+[gmbh] ==1==> from: test, method: test
+[gmbh] ==2==> from: test, method: test
+[gmbh] ==3==> from: test, method: test
+[gmbh] ==4==> from: test, method: tkn
+[gmbh] ==5==> from: test, method: test
+[gmbh] ==6==> from: test, method: test
+[gmbh] ==7==> from: test, method: tkn
+[gmbh] ==8==> from: test, method: tkn
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh] ==0==> from: test, method: test
+[gmbh] ==1==> from: test, method: test
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@localhost:49999@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+------------------------------------------------------------
+[gmbh-client-debug] started, time=2019-02-05T14:57:26-06:00
+[gmbh-client-debug] gmbh configuration valid
+[gmbh-client-debug] connected to core=localhost:59999
+[gmbh-client-debug] assigned address=localhost:49999
+[gmbh-client-debug] shutdown, time=2019-02-05T14:57:33-06:00

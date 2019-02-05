@@ -13,14 +13,12 @@ var client *gmbh.Client
 
 func main() {
 
-	go func() {
-		var err error
-		client, err = gmbh.NewService("../gmbh.yaml")
-		if err != nil {
-			panic(err)
-		}
-		client.Start()
-	}()
+	var err error
+	client, err = gmbh.NewService().Config("../gmbh.yaml")
+	if err != nil {
+		panic(err)
+	}
+	client.Verbose().Nonblocking().Start()
 
 	r := mux.NewRouter()
 	r.HandleFunc("/", handleIndex)
@@ -33,7 +31,7 @@ func handleIndex(w http.ResponseWriter, r *http.Request) {
 	w.Write([]byte("Cabal Coms Demo\n"))
 	w.Write([]byte("Requesting a response from the CORE server...\n"))
 
-	result := client.MakeRequest("demo", "test", "abc123")
+	result, _ := client.MakeRequest("demo", "test", "abc123")
 
 	if result.HadError {
 		w.Write([]byte("Auth says: " + result.ErrorString + "\n"))
@@ -46,7 +44,10 @@ func handletest(w http.ResponseWriter, r *http.Request) {
 	w.Write([]byte("Cabal Coms Demo\n"))
 	w.Write([]byte("Requesting a response from the CORE server...\n"))
 
-	result := client.MakeRequest("demo", "two", "abc123")
+	result, err := client.MakeRequest("demo", "two", "abc123")
+	if err != nil {
+		panic(err)
+	}
 
 	if result.HadError {
 		w.Write([]byte("Auth says: " + result.ErrorString + "\n"))
@@ -58,7 +59,10 @@ func handletkn(w http.ResponseWriter, r *http.Request) {
 	w.Write([]byte("Cabal Coms Demo\n"))
 	w.Write([]byte("Requesting a response from the CORE server...\n"))
 
-	result := client.MakeRequest("demo", "tkn", realip.FromRequest(r))
+	result, err := client.MakeRequest("demo", "tkn", realip.FromRequest(r))
+	if err != nil {
+		panic(err)
+	}
 
 	if result.HadError {
 		w.Write([]byte("Auth says: " + result.ErrorString + "\n"))

@@ -32,3 +32,5 @@ is_client: True
 # Can other services contact this service?
 is_server: True
 #
+
+core_address: "localhost:59999"

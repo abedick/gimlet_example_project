@@ -935,3 +935,87 @@ interrupt
 acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
 [gmbh] <==0== target: demo, method: tkn
 [gmbh]  ==0==> result: eyJhbGciOiJIUzI1NiIsImtpZCI6IiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NDkwNzE2MzAsImlhdCI6MTU0OTA1MDAzMCwiaWQiOiI6OjEiLCJpc3MiOiJfY2FiYWwtYXV0aGVudGljYXRpb24tbW9kdWxlIiwidXNlcmdyb3VwIjoiZ3Vlc3QifQ.-aKBmR_b7zb6xPFpWbZO0gbHd3_zHyFnFhuTYdsz-vw, errors?: 
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+-----------------------------------
+[gmbh] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+interrupt
+[gmbh] exit(0)
+[gmbh-client-debug] -----------------------------------
+[gmbh-client-debug] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh-client-debug] <==0== target: demo, method: test
+[gmbh-client-debug]  ==0==> result: Hello from _cabal-generic, we received: abc123, errors?: 
+[gmbh-client-debug] <==1== target: demo, method: test
+[gmbh-client-debug]  ==1==> result: Hello from _cabal-generic, we received: abc123, errors?: 
+interrupt
+[gmbh-client-debug] exit(0)
+[gmbh-client-debug] -----------------------------------
+[gmbh-client-debug] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh-client-debug] exit(0)
+[gmbh-client-debug] -----------------------------------
+[gmbh-client-debug] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh-client-debug] exit(0)
+[gmbh-client-debug] -----------------------------------
+[gmbh-client-debug] gmbh started
+acknowledged@@/Users/abrahamdick/RailwayCabal/exProject
+[gmbh-client-debug] exit(0)
+[gmbh-client-debug] -----------------------------------
+[gmbh-client-debug] gmbh started
+[gmbh-client-debug] 
+[gmbh-client-debug] exit(0)
+[gmbh-client-debug] -----------------------------------
+[gmbh-client-debug] gmbh started
+[gmbh-client-debug] received awk from core
+[gmbh-client-debug] exit(0)
+------------------------------------------------------------
+[gmbh-client-debug] gmbh started, time=2019-02-05T14:47:01-06:00
+[gmbh-client-debug] gmbh configuration valid
+[gmbh-client-debug] received awk from core
+[gmbh-client-debug] exit(0)
+------------------------------------------------------------
+[gmbh-client-debug] gmbh started, time=2019-02-05T14:47:15-06:00
+[gmbh-client-debug] gmbh configuration valid
+[gmbh-client-debug] received awk from core
+[gmbh-client-debug] exit(0)
+------------------------------------------------------------
+[gmbh-client-debug] started, time=2019-02-05T14:47:54-06:00
+[gmbh-client-debug] gmbh configuration valid
+[gmbh-client-debug] received awk from core
+[gmbh-client-debug] shutdown, time=2019-02-05T14:47:58-06:00
+------------------------------------------------------------
+[gmbh-client-debug] started, time=2019-02-05T14:49:58-06:00
+[gmbh-client-debug] gmbh configuration valid
+[gmbh-client-debug] connected to core=
+[gmbh-client-debug] shutdown, time=2019-02-05T14:50:01-06:00
+------------------------------------------------------------
+[gmbh-client-debug] started, time=2019-02-05T14:52:18-06:00
+[gmbh-client-debug] gmbh configuration valid
+[gmbh-client-debug] connected to core=
+[gmbh-client-debug] shutdown, time=2019-02-05T14:52:19-06:00
+------------------------------------------------------------
+[gmbh-client-debug] started, time=2019-02-05T14:54:46-06:00
+[gmbh-client-debug] gmbh configuration valid
+[gmbh-client-debug] connected to core=
+[gmbh-client-debug] shutdown, time=2019-02-05T14:54:50-06:00
+------------------------------------------------------------
+[gmbh-client-debug] started, time=2019-02-05T14:55:29-06:00
+[gmbh-client-debug] gmbh configuration valid
+[gmbh-client-debug] connected to core=localhost:59999
+[gmbh-client-debug] shutdown, time=2019-02-05T14:55:33-06:00
+------------------------------------------------------------
+[gmbh-client-debug] started, time=2019-02-05T14:56:15-06:00
+[gmbh-client-debug] gmbh configuration valid
+[gmbh-client-debug] connected to core=localhost:59999
+[gmbh-client-debug] shutdown, time=2019-02-05T14:56:18-06:00
+------------------------------------------------------------
+[gmbh-client-debug] started, time=2019-02-05T14:57:26-06:00
+[gmbh-client-debug] gmbh configuration valid
+[gmbh-client-debug] connected to core=localhost:59999
+[gmbh-client-debug] shutdown, time=2019-02-05T14:57:33-06:00

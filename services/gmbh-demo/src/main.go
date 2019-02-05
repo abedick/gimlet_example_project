@@ -11,7 +11,7 @@ import (
 
 func main() {
 
-	client, err := gmbh.NewService("../gmbh.yaml")
+	client, err := gmbh.NewService().Config("../gmbh.yaml")
 	if err != nil {
 		panic(err)
 	}
@@ -19,7 +19,7 @@ func main() {
 	client.Route("test", handleTest)
 	client.Route("two", handleTest2)
 	client.Route("tkn", handleTkn)
-	client.Start()
+	client.Verbose().Start()
 }
 
 func handleTest(req gmbh.Request, resp *gmbh.Responder) {
