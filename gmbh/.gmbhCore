@@ -1296,3 +1296,191 @@ cabalAddress="localhost:59999"
 ctrlAddress="localhost:59997"
 services=[/Users/abrahamdick/RailwayCabal/exProject/services/gmbh-demo, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-fail, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-webserver]
 stopTime="Feb 5 2019 14:57:33 CST"
+
+------------------------------------------------------------------------
+startTime="Feb 5 2019 15:00:33 CST"
+cabalAddress="localhost:59999"
+ctrlAddress="localhost:59997"
+services=[/Users/abrahamdick/RailwayCabal/exProject/services/gmbh-demo, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-fail, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-webserver]
+stopTime="Feb 5 2019 15:00:43 CST"
+
+------------------------------------------------------------------------
+startTime="Feb 5 2019 15:00:53 CST"
+cabalAddress="localhost:59999"
+ctrlAddress="localhost:59997"
+services=[/Users/abrahamdick/RailwayCabal/exProject/services/gmbh-demo, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-fail, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-webserver]
+stopTime="Feb 5 2019 15:00:55 CST"
+
+------------------------------------------------------------------------
+startTime="Feb 5 2019 15:01:00 CST"
+cabalAddress="localhost:59999"
+ctrlAddress="localhost:59997"
+services=[/Users/abrahamdick/RailwayCabal/exProject/services/gmbh-demo, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-fail, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-webserver]
+stopTime="Feb 5 2019 15:01:40 CST"
+
+------------------------------------------------------------------------
+startTime="Feb 5 2019 15:25:00 CST"
+cabalAddress="localhost:59999"
+ctrlAddress="localhost:59997"
+services=[/Users/abrahamdick/RailwayCabal/exProject/services/gmbh-demo, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-fail, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-webserver]
+stopTime="Feb 5 2019 15:25:16 CST"
+
+------------------------------------------------------------------------
+startTime="Feb 6 2019 09:41:24 CST"
+cabalAddress="localhost:59999"
+ctrlAddress="localhost:59997"
+services=[/Users/abrahamdick/RailwayCabal/exProject/services/gmbh-demo, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-fail, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-webserver]
+stopTime="Feb 6 2019 09:41:26 CST"
+
+------------------------------------------------------------------------
+startTime="Feb 6 2019 09:41:39 CST"
+cabalAddress="localhost:59999"
+ctrlAddress="localhost:59997"
+services=[/Users/abrahamdick/RailwayCabal/exProject/services/gmbh-demo, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-fail, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-webserver]
+stopTime="Feb 6 2019 09:41:41 CST"
+
+------------------------------------------------------------------------
+startTime="Feb 6 2019 09:41:46 CST"
+cabalAddress="localhost:59999"
+ctrlAddress="localhost:59997"
+services=[/Users/abrahamdick/RailwayCabal/exProject/services/gmbh-demo, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-fail, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-webserver]
+stopTime="Feb 6 2019 09:42:09 CST"
+
+------------------------------------------------------------------------
+startTime="Feb 6 2019 09:43:35 CST"
+cabalAddress="localhost:59999"
+ctrlAddress="localhost:59997"
+services=[/Users/abrahamdick/RailwayCabal/exProject/services/gmbh-demo, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-fail, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-webserver]
+stopTime="Feb 6 2019 09:43:37 CST"
+
+------------------------------------------------------------------------
+startTime="Feb 6 2019 10:03:35 CST"
+cabalAddress="localhost:59999"
+ctrlAddress="localhost:59997"
+services=[/Users/abrahamdick/RailwayCabal/exProject/services/gmbh-demo, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-fail, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-webserver]
+stopTime="Feb 6 2019 10:06:10 CST"
+
+------------------------------------------------------------------------
+startTime="Feb 6 2019 10:26:17 CST"
+cabalAddress="localhost:59999"
+ctrlAddress="localhost:59997"
+services=[/Users/abrahamdick/RailwayCabal/exProject/services/gmbh-demo, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-fail, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-webserver]
+stopTime="Feb 6 2019 10:26:19 CST"
+
+------------------------------------------------------------------------
+startTime="Feb 6 2019 10:30:16 CST"
+cabalAddress="localhost:59999"
+ctrlAddress="localhost:59997"
+services=[/Users/abrahamdick/RailwayCabal/exProject/services/gmbh-demo, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-fail, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-webserver]
+stopTime="Feb 6 2019 10:31:29 CST"
+
+------------------------------------------------------------------------
+startTime="Feb 6 2019 10:31:48 CST"
+cabalAddress="localhost:59999"
+ctrlAddress="localhost:59997"
+services=[/Users/abrahamdick/RailwayCabal/exProject/services/gmbh-demo, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-fail, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-webserver]
+stopTime="Feb 6 2019 10:31:51 CST"
+
+------------------------------------------------------------------------
+startTime="Feb 6 2019 10:32:06 CST"
+cabalAddress="localhost:59999"
+ctrlAddress="localhost:59997"
+services=[/Users/abrahamdick/RailwayCabal/exProject/services/gmbh-demo, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-fail, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-webserver]
+stopTime="Feb 6 2019 10:32:41 CST"
+
+------------------------------------------------------------------------
+startTime="Feb 6 2019 10:33:02 CST"
+cabalAddress="localhost:59999"
+ctrlAddress="localhost:59997"
+services=[/Users/abrahamdick/RailwayCabal/exProject/services/gmbh-demo, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-fail, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-webserver]
+stopTime="Feb 6 2019 10:33:45 CST"
+
+------------------------------------------------------------------------
+startTime="Feb 6 2019 10:34:20 CST"
+cabalAddress="localhost:59999"
+ctrlAddress="localhost:59997"
+services=[/Users/abrahamdick/RailwayCabal/exProject/services/gmbh-demo, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-fail, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-webserver]
+stopTime="Feb 6 2019 10:34:37 CST"
+
+------------------------------------------------------------------------
+startTime="Feb 6 2019 10:51:53 CST"
+cabalAddress="localhost:59999"
+ctrlAddress="localhost:59997"
+services=[/Users/abrahamdick/RailwayCabal/exProject/services/gmbh-demo, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-fail, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-webserver]
+stopTime="Feb 6 2019 10:52:12 CST"
+
+------------------------------------------------------------------------
+startTime="Feb 6 2019 10:52:18 CST"
+cabalAddress="localhost:59999"
+ctrlAddress="localhost:59997"
+services=[/Users/abrahamdick/RailwayCabal/exProject/services/gmbh-demo, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-fail, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-webserver]
+stopTime="Feb 6 2019 10:52:20 CST"
+
+------------------------------------------------------------------------
+startTime="Feb 6 2019 11:23:57 CST"
+cabalAddress="localhost:59999"
+ctrlAddress="localhost:59997"
+services=[]
+stopTime="Feb 6 2019 11:25:19 CST"
+
+------------------------------------------------------------------------
+startTime="Feb 6 2019 11:25:21 CST"
+cabalAddress="localhost:59999"
+ctrlAddress="localhost:59997"
+services=[/Users/abrahamdick/RailwayCabal/exProject/services/gmbh-demo, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-fail, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-webserver]
+stopTime="Feb 6 2019 11:25:27 CST"
+
+------------------------------------------------------------------------
+startTime="Feb 6 2019 11:25:44 CST"
+cabalAddress="localhost:59999"
+ctrlAddress="localhost:59997"
+services=[/Users/abrahamdick/RailwayCabal/exProject/services/gmbh-demo, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-fail, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-webserver]
+stopTime="Feb 6 2019 11:27:06 CST"
+
+------------------------------------------------------------------------
+startTime="Feb 6 2019 11:27:07 CST"
+cabalAddress="localhost:59999"
+ctrlAddress="localhost:59997"
+services=[/Users/abrahamdick/RailwayCabal/exProject/services/gmbh-demo, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-fail, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-webserver]
+stopTime="Feb 6 2019 11:28:37 CST"
+
+------------------------------------------------------------------------
+startTime="Feb 6 2019 11:40:36 CST"
+cabalAddress="localhost:59999"
+ctrlAddress="localhost:59997"
+services=[/Users/abrahamdick/RailwayCabal/exProject/services/gmbh-demo, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-fail, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-webserver]
+stopTime="Feb 6 2019 11:42:45 CST"
+
+------------------------------------------------------------------------
+startTime="Feb 6 2019 11:42:51 CST"
+cabalAddress="localhost:59999"
+ctrlAddress="localhost:59997"
+services=[/Users/abrahamdick/RailwayCabal/exProject/services/gmbh-demo, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-fail, /Users/abrahamdick/RailwayCabal/exProject/services/gmbh-webserver]
+stopTime="Feb 6 2019 11:47:39 CST"
+
+------------------------------------------------------------------------
+startTime="Feb 6 2019 12:00:21 CST"
+cabalAddress="localhost:59999"
+ctrlAddress="localhost:59997"
+services=[/Users/abrahamdick/RailwayCabal/exProject/managed_services/gmbh-demo, /Users/abrahamdick/RailwayCabal/exProject/managed_services/gmbh-fail, /Users/abrahamdick/RailwayCabal/exProject/managed_services/gmbh-webserver]
+stopTime="Feb 6 2019 12:00:53 CST"
+
+------------------------------------------------------------------------
+startTime="Feb 6 2019 12:01:43 CST"
+cabalAddress="localhost:59999"
+ctrlAddress="localhost:59997"
+services=[/Users/abrahamdick/RailwayCabal/exProject/managed_services/gmbh-demo, /Users/abrahamdick/RailwayCabal/exProject/managed_services/gmbh-fail, /Users/abrahamdick/RailwayCabal/exProject/managed_services/gmbh-webserver]
+stopTime="Feb 6 2019 12:01:45 CST"
+
+------------------------------------------------------------------------
+startTime="Feb 6 2019 12:01:51 CST"
+cabalAddress="localhost:59999"
+ctrlAddress="localhost:59997"
+services=[/Users/abrahamdick/RailwayCabal/exProject/managed_services/gmbh-demo, /Users/abrahamdick/RailwayCabal/exProject/managed_services/gmbh-fail, /Users/abrahamdick/RailwayCabal/exProject/managed_services/gmbh-webserver]
+stopTime="Feb 6 2019 12:02:17 CST"
+
+------------------------------------------------------------------------
+startTime="Feb 6 2019 12:02:24 CST"
+cabalAddress="localhost:59999"
+ctrlAddress="localhost:59997"
+services=[/Users/abrahamdick/RailwayCabal/exProject/managed_services/gmbh-demo, /Users/abrahamdick/RailwayCabal/exProject/managed_services/gmbh-fail, /Users/abrahamdick/RailwayCabal/exProject/managed_services/gmbh-webserver]
