@@ -13,12 +13,15 @@ var client *gmbh.Client
 
 func main() {
 
+	runtime := gmbh.SetRuntime(gmbh.RuntimeOptions{Blocking: false, Verbose: true})
+
 	var err error
-	client, err = gmbh.NewService().Config("../gmbh.yaml")
+	client, err = gmbh.NewClient("../gmbh.yaml", runtime)
 	if err != nil {
 		panic(err)
 	}
-	client.Verbose().Nonblocking().Start()
+
+	client.Start()
 
 	r := mux.NewRouter()
 	r.HandleFunc("/", handleIndex)

@@ -5,14 +5,14 @@ import (
 )
 
 func main() {
-
-	client, err := gmbh.NewService().Config("../gmbh.yaml")
+	runtime := gmbh.SetRuntime(gmbh.RuntimeOptions{Blocking: true, Verbose: true})
+	client, err := gmbh.NewClient("../gmbh.yaml", runtime)
 	if err != nil {
 		panic(err)
 	}
 
 	client.Route("about", handleAbout)
-	client.Verbose().Start()
+	client.Start()
 }
 
 func handleAbout(req gmbh.Request, resp *gmbh.Responder) {

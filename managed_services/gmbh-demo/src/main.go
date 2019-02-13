@@ -10,8 +10,8 @@ import (
 )
 
 func main() {
-
-	client, err := gmbh.NewService().Config("../gmbh.yaml")
+	runtime := gmbh.SetRuntime(gmbh.RuntimeOptions{Blocking: true, Verbose: true})
+	client, err := gmbh.NewClient("../gmbh.yaml", runtime)
 	if err != nil {
 		panic(err)
 	}
@@ -19,7 +19,7 @@ func main() {
 	client.Route("test", handleTest)
 	client.Route("two", handleTest2)
 	client.Route("tkn", handleTkn)
-	client.Verbose().Start()
+	client.Start()
 }
 
 func handleTest(req gmbh.Request, resp *gmbh.Responder) {
