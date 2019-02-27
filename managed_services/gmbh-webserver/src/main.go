@@ -16,7 +16,7 @@ func main() {
 	runtime := gmbh.SetRuntime(gmbh.RuntimeOptions{Blocking: false, Verbose: true})
 
 	var err error
-	client, err = gmbh.NewClient("../gmbh.yaml", runtime)
+	client, err = gmbh.NewClient("./ws.toml", runtime)
 	if err != nil {
 		panic(err)
 	}
